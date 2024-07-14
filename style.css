@@ -1,0 +1,304 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+#parent{
+    height: 130vh;
+    width: 100%;
+    border: 2px solid black;
+    display: flex;
+}
+#leftbar{
+    height: 100%;
+    width: 20%;
+    background-color: rgba(255, 255, 255, 0.719);
+    border-right: 1px solid black;
+}
+.logo{
+    height: 120px;
+    width: 100%;
+}
+.logo img{
+    margin-left: 40px;
+    margin-top: 20px;
+}
+.content{
+    height: 500px;
+    width: 100%;
+}
+.content1{
+    height: 60px;
+    width: 100%;
+    display: flex;
+}
+.content1 img{
+    padding-top: 15px;
+    padding-left: 50px;
+}
+.content2{
+    height: 60px;
+    width: 100%;
+    display: flex;
+}
+.content2 img{
+    padding-top: 15px;
+    padding-left: 50px;
+}
+.content3{
+    height: 60px;
+    width: 100%;
+    display: flex;
+}
+.content3 img{
+    padding-top: 15px;
+    padding-left: 50px;
+}
+.content4{
+    height: 60px;
+    width: 100%;
+    display: flex;
+}
+.content4 img{
+    padding-top: 15px;
+    padding-left: 50px;
+}
+.content5{
+    height: 60px;
+    width: 100%;
+    display: flex;
+}
+.content5 img{
+    padding-top: 15px;
+    padding-left: 50px;
+}
+.content6{
+    height: 60px;
+    width: 100%;
+    display: flex;
+}
+.content6 img{
+    padding-top: 15px;
+    padding-left: 50px;
+}
+.content7{
+    height: 60px;
+    width: 100%;
+    display: flex;
+}
+.content7 img{
+    padding-top: 15px;
+    padding-left: 50px;
+}
+.content8{
+    height: 60px;
+    width: 100%;
+    display: flex;
+}
+.content8 img{
+    padding-top: 15px;
+    padding-left: 50px;
+}
+h4{
+    font-size: 20px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: rgba(0, 0, 0, 0.801);
+    padding-top: 20px;
+    padding-left: 10px;
+}
+#rightbar{
+    height: 100%;
+    width: 80%;
+    /* background-color: aqua; */
+}
+.nav{
+    height: 80px;
+    width: 100%;
+    background-color: white;
+    display: flex;
+    justify-content: space-between;
+}
+.box1{
+    height: 100%;
+    width: 15%;
+ 
+    padding-left: 40px;
+}
+.box2{
+    height: 100%;
+    width: 25%;
+    display: flex;
+ 
+}
+.img4{
+    height: 35px;
+    border-radius: 50%;
+    margin-left: 10px;
+    margin-top: 20px;
+}
+.cover{
+    height: 250px;
+    width: 100%;
+    background-color: blue;
+    padding-top: 20px;
+}
+.changecover{
+    height: 30px;
+    width: 150px;
+    border: 2px solid white;
+    border-radius: 5px;
+    display: flex;
+    background: rgba(0, 0, 0, 0.356);
+    margin-left: 950px;
+}
+.img{
+    height: 650px;
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+    position: relative;
+    bottom: 90px;
+}
+
+.cart1{
+    height: 100%;
+    width: 25%;
+    /* border: 2px solid black; */
+    background-color: white;
+    border-radius: 5px;
+    border: 1px solid black;
+}
+.billimg{
+    height: 250px;
+    width: 100%;
+    /* background-color: aqua; */
+}
+.img2{
+    height: 150px;
+    border-radius: 50%;
+    margin-left: 70px;
+    margin-top: 20px;
+    
+}
+.img3{
+    background-color: blue;
+    border-radius: 50%;
+    position: relative;
+    bottom: 10px;
+    right: 40px;
+}
+.billimg h3{
+    font-size: 30px;
+    margin-left: 85px;
+    color: rgba(0, 0, 0, 0.801);
+}
+.billimg p{
+    margin-left: 90px;
+}
+.box3{
+    height: 180px;
+    width: 100%;
+
+}
+.box3 h3{
+    padding-left: 30px;
+    color: rgba(0, 0, 0, 0.801);
+}
+.box4{
+    height: 30px;
+    width: 80%;
+    border: 2px solid rgb(0, 0, 0, 0.801);
+    border-radius: 5px;
+    margin: auto;
+    margin-top: 10px;
+}
+.box4 p{
+    padding-left: 30px;
+    padding-top: 5px;
+    color: rgba(0, 0, 0, 0.801);
+}
+.box5{
+    height: 30px;
+    width: 80%;
+    border: 2px solid rgb(0, 0, 0, 0.801);
+    border-radius: 5px;
+    margin: auto;
+    margin-top: 10px;
+    display: flex;
+}
+.box5 p{
+    padding-left: 20px;
+    padding-top: 2px;
+    color: blue;
+}
+.cart2{
+    height: 100%;
+    width: 60%;
+    border: 1px solid black;
+    background-color: white;
+    border-radius: 5px;
+}
+.box6{
+    height: 70px;
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+}
+.box6 h3{
+   padding-top: 20px;
+   color:  rgb(0, 0, 0, 0.801);
+}
+#form{
+    height: 380px;
+    width: 100%;
+    
+    display: flex;
+}
+.form1{
+    height: 380px;
+    width: 50%;
+   
+    padding-left: 25px;
+}
+.form1 p{
+    font-size: 20px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: rgba(0, 0, 0, 0.801);
+}
+input{
+    height: 50px;
+    width: 300px;
+    border-radius: 5px;
+}
+select{
+    height: 50px;
+    width: 300px;
+    border-radius: 5px;
+}
+.form2{
+    height: 380px;
+    width: 50%;
+   
+}
+.form2 p{
+    font-size: 20px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: rgba(0, 0, 0, 0.801);
+}
+.btn{
+   height: 100px;
+   width: 200px;
+    position: relative;
+    top: 20px;
+    right: 335px;
+}
+.btn input{
+    height: 50px;
+    width: 120px;
+    background-color: blue;
+    border-radius: 8px;
+    border: none;
+    color: white;
+    margin-left: 0px;
+    margin-top: 40px;
+    font-size: 15px;
+}
